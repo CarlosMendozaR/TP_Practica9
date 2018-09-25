@@ -23,5 +23,10 @@ namespace ImplementarInterfaces
             paginaActual = int.Parse(Console.ReadLine());
             Console.WriteLine("Te encuentras en la pagina" + paginaActual);
         }
+
+        public virtual void Opciones()
+        {
+
+        }
     }
 }
