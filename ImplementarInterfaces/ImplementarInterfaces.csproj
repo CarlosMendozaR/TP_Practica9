@@ -34,15 +34,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlocDeHojas.cs" />
+    <Compile Include="CuadernoDeEjercicios.cs" />
+    <Compile Include="IEjercicios.cs" />
+    <Compile Include="ILibrosDeTexto.cs" />
+    <Compile Include="ILibrosDidacticos.cs" />
+    <Compile Include="LibroDeFiolosofia.cs" />
+    <Compile Include="LibroDeIngenieria.cs" />
+    <Compile Include="LibroParaColorear.cs" />
+    <Compile Include="Libros.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
